@@ -2,7 +2,9 @@
 An app to play with the hyper-parameters and save it to a file
 
 ## Clone the repository  
-``` git clone https://github.com/holmgroup/BokehAppDemo.git``` 
+``` 
+git clone https://github.com/holmgroup/BokehAppDemo.git
+``` 
 Do your work and then add them to git server as:
 ``` 
 git add -A
