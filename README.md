@@ -22,8 +22,8 @@ bokeh serve --show Flask_parameter_update
 
 On saving the params, they are appended to a textfile output.txt in Flask_parameter_update/output.txt
 ## Packages required:
-Bokeh
-Numpy
+Bokeh (server version 0.12.9 (running on Tornado 4.5.2))
+Numpy (1.13.2 or later)
 Scikit-image (> 0.12)
 
 #Port Forwarding:
