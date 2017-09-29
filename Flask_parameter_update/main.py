@@ -25,7 +25,7 @@ def Load_image(path):
     # read test image
     im = imread(path)
     # take patch of image and convert to grayscale
-    im = im[:1024,:1024]
+    im = im[:256,:256]
     #im = im[:256,:256]
     im = rgb2gray(im)
 
