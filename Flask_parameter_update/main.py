@@ -70,6 +70,7 @@ def update_blob_detector(attrname, old, new):
     threshold = threshold_slider.value
     overlap = overlap_slider.value
     print("Calculating Blobs ..........")
+    print("params are",logscale,maxSigma,minSigma,overlap)
     blobs_y, blobs_x, blobs_r = blob_detector(imIn, overlap, threshold, minSigma, maxSigma, logscale)
     source.data = dict(x=blobs_x, y= blobs_y, r=blobs_r)
     print("blobs updated")
